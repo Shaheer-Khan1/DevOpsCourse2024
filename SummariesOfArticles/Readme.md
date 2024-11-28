@@ -1,6 +1,8 @@
 # Summary of My Articles
 
 ## **1. Installing Terraform on Windows**
+Link: https://medium.com/@khanshaheer6969/installing-terraform-on-windows-92f28c69f988
+
 In this article, I detailed the step-by-step process of installing and using Terraform on Windows. Terraform, an Infrastructure as Code (IaC) tool, simplifies infrastructure management across cloud platforms like AWS, Azure, and Google Cloud. 
 
 ### Key Highlights:
@@ -14,6 +16,8 @@ In this article, I detailed the step-by-step process of installing and using Ter
 - **Outcome**: Enables developers and DevOps teams to manage cloud resources efficiently using code.
 
 ## **2. Tech Monopolies: The Real Price of ‘Free’ Software**
+Link: https://medium.com/@khanshaheer6969/tech-monopolies-the-real-price-of-free-software-f96a3f0597ac
+
 In this article, I explored the hidden costs of "free" software provided by tech giants like Google and Facebook. While financially free, these tools often come at the expense of user data, driving targeted advertising and surveillance capitalism.
 
 ### Key Highlights:
