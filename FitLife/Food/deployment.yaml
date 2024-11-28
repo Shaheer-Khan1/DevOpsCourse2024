@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: fitlife-app
+spec:
+  replicas: 3  
+  selector:
+    matchLabels:
+      app: fitlife
+  template:
+    metadata:
+      labels:
+        app: fitlife
+    spec:
+      containers:
+        - name: fitlife
+          image: food-react-app:latest  
+          ports:
+            - containerPort: 80

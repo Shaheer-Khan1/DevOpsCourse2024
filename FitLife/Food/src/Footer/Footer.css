@@ -1,0 +1,74 @@
+/* Ensure the footer spans the full width of the viewport */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .footer-container {
+    background-color: black; /* Dark blue background */
+    color: #ecf0f1; /* Light text color */
+    padding: 40px 20px;
+    text-align: center;
+    width: 100%; /* Cover full width of the page */
+    box-sizing: border-box; /* Include padding in the width */
+    position: relative; /* Ensure it stays in place */
+    left: 0; /* Ensure it starts at the left edge */
+  }
+  
+  .footer-content {
+    max-width: 1200px; /* Maximum width for content */
+    margin: 0 auto; /* Center the content */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    margin: 10px;
+    flex: 1 1 200px; /* Allow sections to grow and shrink */
+  }
+  
+  .footer-heading {
+    font-size: 28px;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .footer-subHeading {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .footer-section p {
+    margin: 0;
+  }
+  
+  .footer-section a {
+    color: #ecf0f1;
+    text-decoration: none;
+  }
+  
+  .footer-section a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-links li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .footer-bottom {
+    margin-top: 30px;
+    font-size: 16px;
+    border-top: white; /* Add a subtle border at the top */
+    padding-top: 20px;
+  }
+  
